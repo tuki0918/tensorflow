@@ -23,5 +23,5 @@ def detect(imagefilename, cascadefilename):
     return dstimg
 
 if __name__ == '__main__':
-    result = detect('img/cat.jpg', 'xml/cascade.xml')
+    result = detect('img/cat/cat.jpg', 'xml/cascade.xml')
     cv.imwrite('result/result.jpg', result)
